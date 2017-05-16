@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <title>BOOTCLASIFIED - Responsive Classified Theme</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- styles needed for carousel slider -->
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- include pace script for automatic web page progress bar  -->
+
+    <script>
+        paceOptions = {
+            elements: true
+        };
+    </script>
+    <script src="assets/js/pace.min.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div class="header">
+        <nav class="navbar   navbar-site navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                        <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
+                            class="icon-bar"></span> <span class="icon-bar"></span></button>
+                    <a href="index.html" class="navbar-brand logo logo-title">
+                        <!-- Original Logo will be placed here  -->
+                        <span class="logo-icon"><i class="icon icon-search-1 ln-shadow-logo shape-0"></i> </span>
+                        BOOT<span>CLASSIFIED </span> </a></div>
+                <div class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="login.html">登录</a></li>
+                        <li><a href="signup.html">注册</a></li>
+                        <li class="postadd"><a class="btn btn-block   btn-border btn-post btn-danger"
+                                               href="post-ads.html">发表文章</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+    <!-- /.header -->
+
+    <div class="main-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 page-content">
+                    <div class="inner-box category-content">
+                        <h2 class="title-2 uppercase"><strong> <i class="icon-docs"></i> 发表我的文章</strong></h2>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <form class="form-horizontal">
+                                    <fieldset>
+                                        <!-- Select Basic -->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">文章分类</label>
+
+                                            <div class="col-md-8">
+                                                <select name="category-group" id="category-group" class="form-control">
+                                                    <option value="0" selected="selected"> 请选择一个分类...</option>
+                                                    <option value="Vehicles"
+                                                            style="background-color:#E9E9E9;font-weight:bold;"
+                                                            disabled="disabled"> - Vehicles -
+                                                    </option>
+                                                    <option value="Cars"> Cars</option>
+                                                    <option value="Commercial vehicles"> Commercial vehicles</option>
+                                                    <option value="Motorcycles"> Motorcycles</option>
+                                                    <option value="Motorcycle Equipment"> Car &amp; Motorcycle
+                                                        Equipment
+                                                    </option>
+                                                    <option value="Boats"> Boats</option>
+                                                    <option value="Vehicles"> Other Vehicles</option>
+                                                    <option value="House"
+                                                            style="background-color:#E9E9E9;font-weight:bold;"
+                                                            disabled="disabled"> - House and Children -
+                                                    </option>
+                                                    <option value="Appliances"> Appliances</option>
+                                                    <option value="Inside"> Inside</option>
+                                                    <option value="Games"> Games and Clothing</option>
+                                                    <option value="Garden"> Garden</option>
+                                                    <option value="Multimedia"
+                                                            style="background-color:#E9E9E9;font-weight:bold;"
+                                                            disabled="disabled"> - Multimedia -
+                                                    </option>
+                                                    <option value="Telephony"> Telephony</option>
+                                                    <option value="Image"> Image and sound</option>
+                                                    <option value="Computers"> Computers and Accessories</option>
+                                                    <option value="Video"> Video games and consoles</option>
+                                                    <option value="Real"
+                                                            style="background-color:#E9E9E9;font-weight:bold;"
+                                                            disabled="disabled"> - Real Estate -
+                                                    </option>
+                                                    <option value="Apartment"> Apartment</option>
+                                                    <option value="Home"> Home</option>
+                                                    <option value="Vacation"> Vacation Rentals</option>
+                                                    <option value="Commercial"> Commercial offices and local</option>
+                                                    <option value="Grounds"> Grounds</option>
+                                                    <option value="Houseshares"> Houseshares</option>
+                                                    <option value="Other real estate"> Other real estate</option>
+                                                    <option value="Services"
+                                                            style="background-color:#E9E9E9;font-weight:bold;"
+                                                            disabled="disabled"> - Services -
+                                                    </option>
+                                                    <option value="Jobs"> Jobs</option>
+                                                    <option value="Job application"> Job application</option>
+                                                    <option value="Services"> Services</option>
+                                                    <option value="Price"> Price</option>
+                                                    <option value="Business"> Business and goodwill</option>
+                                                    <option value="Professional"> Professional equipment</option>
+                                                    <option value="dropoff"
+                                                            style="background-color:#E9E9E9;font-weight:bold;"
+                                                            disabled="disabled"> - Extra -
+                                                    </option>
+                                                    <option value="Other"> Other</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <!-- Multiple Radios (inline) -->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">文章类型</label>
+
+                                            <div class="col-md-8">
+                                                <label class="radio-inline" for="radios-0">
+                                                    <input name="radios" id="radios-0" value="Private" checked="checked"
+                                                           type="radio">
+                                                    私人 </label>
+                                                <label class="radio-inline" for="radios-1">
+                                                    <input name="radios" id="radios-1" value="Business" type="radio">
+                                                    公开 </label>
+                                            </div>
+                                        </div>
+
+                                        <!-- Text input-->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="Adtitle">标题</label>
+
+                                            <div class="col-md-8">
+                                                <input id="Adtitle" name="Adtitle" placeholder="请输入标题"
+                                                       class="form-control input-md" required="" type="text">
+                                                <span class="help-block">建议在5-20字符之间. </span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Textarea -->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="textarea">简要描述</label>
+
+                                            <div class="col-md-8">
+                                                <textarea class="form-control" id="textarea" name="textarea">用简短的几句话描述文章主题</textarea>
+                                            </div>
+                                        </div>
+
+                                        <!-- Prepended text-->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="Price">积分</label>
+
+                                            <div class="col-md-4">
+                                                <div class="input-group"><span class="input-group-addon">$</span>
+                                                    <input id="Price" name="Price" class="form-control"
+                                                           placeholder="需要积分阅读" required="" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox">
+                                                        免费 </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- photo -->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="textarea"> 图片 </label>
+
+                                            <div class="col-md-8">
+                                                <div class="mb10">
+                                                    <input id="input-upload-img1" type="file" class="file"
+                                                           data-preview-file-type="text">
+                                                </div>
+                                           
+                                                <p class="help-block">添加1张图片，作为文章预览时看到，请用与您文章或产品相关的图片.</p>
+                                            </div>
+                                        </div>
+                                        <div class="content-subheading"><i class="icon-user fa"></i> <strong>S以下换位文本编辑器即可，带定时保存的，别编辑完了超时了还有就是涉及国际字段</strong></div>
+
+                                        <!-- Text input-->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="textinput-name">相关国家</label>
+
+                                            <div class="col-md-8">
+                                                <input id="textinput-name" name="textinput-name"
+                                                       placeholder="英文多个国家用|分隔" class="form-control input-md"
+                                                       required="" type="text">
+                                            </div>
+                                        </div>
+
+                                        <!-- Appended checkbox -->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="seller-email"> 关键词</label>
+
+                                            <div class="col-md-8">
+                                                <input id="seller-email" name="seller-email" class="form-control"
+                                                       placeholder="关键词，多个关键词请用|分隔 required="" type="text">
+
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" value="">
+                                                        <small> 此条信息不显示手机号码.</small>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Text input-->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="seller-Number">Phone
+                                                Number</label>
+
+                                            <div class="col-md-8">
+                                                <input id="seller-Number" name="seller-Number"
+                                                       placeholder="Phone Number" class="form-control input-md"
+                                                       required="" type="text">
+                                            </div>
+                                        </div>
+
+                                        <!-- Select Basic -->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="seller-Location">Location</label>
+
+                                            <div class="col-md-8">
+                                                <select id="seller-Location" name="seller-Location"
+                                                        class="form-control">
+                                                    <option value="1">Option one</option>
+                                                    <option value="2">Option two</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <!-- Select Basic -->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="seller-area">City</label>
+
+                                            <div class="col-md-8">
+                                                <select id="seller-area" name="seller-area" class="form-control">
+                                                    <option value="1">Option one</option>
+                                                    <option value="2">Option two</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="well">
+                                            <h3><i class=" icon-certificate icon-color-1"></i> 文章类型
+                                            </h3>
+
+                                            <p>为了更好的支持创新、维护社会版权信息、请您按照实际情况选择您的文章类型，我们坚决打击盗版内容. <a href="help.html">原创支持</a></p>
+
+                                            <div class="form-group">
+                                                <table class="table table-hover checkboxtable">
+                                                    <tr>
+                                                        <td>
+                                                            <div class="radio">
+                                                                <label>
+                                                                    <input type="radio" name="optionsRadios"
+                                                                           id="optionsRadios0" value="option0" checked>
+                                                                    <strong>原创 </strong> </label>
+                                                            </div>
+                                                        </td>
+                                                        <td><p>$00.00</p></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="radio">
+                                                                <label>
+                                                                    <input type="radio" name="optionsRadios"
+                                                                           id="optionsRadios1" value="option1">
+                                                                    <strong>转发 </strong> </label>
+                                                            </div>
+                                                        </td>
+                                                        <td><p>$10.00</p></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="radio">
+                                                                <label>
+                                                                    <input type="radio" name="optionsRadios"
+                                                                           id="optionsRadios2" value="option2">
+                                                                    <strong>翻译 </strong> </label>
+                                                            </div>
+                                                        </td>
+                                                        <td><p>$20.00</p></td>
+                                                    </tr>
+                                                  
+                                                    <tr>
+                                                        <td>
+                                                            <div class="form-group">
+                                                                <div class="col-md-8">
+                                                                    <select class="form-control" name="Method"
+                                                                            id="PaymentMethod">
+                                                                        <option value="2">Select Payment Method</option>
+                                                                        <option value="3">Credit / Debit Card</option>
+                                                                        <option value="5">Paypal</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td><p><strong>Payable Amount : $40.00</strong></p></td>
+                                                    </tr>
+                                                </table>
+
+                                            </div>
+                                        </div>
+
+                                        <!-- terms -->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">Terms</label>
+
+                                            <div class="col-md-8">
+                                                <label class="checkbox-inline" for="checkboxes-0">
+                                                    <input name="checkboxes" id="checkboxes-0"
+                                                           value="Remember above contact information." type="checkbox">
+                                                    Remember above contact information. </label>
+                                            </div>
+                                        </div>
+
+                                        <!-- Button  -->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label"></label>
+
+                                            <div class="col-md-8"><a href="posting-success.html" id="button1id"
+                                                                     class="btn btn-success btn-lg">Submit</a></div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.page-content -->
+
+                <div class="col-md-3 reg-sidebar">
+                    <div class="reg-sidebar-inner text-center">
+                        <div class="promo-text-box"><i class=" icon-picture fa fa-4x icon-color-1"></i>
+
+                            <h3><strong>免费发表博客</strong></h3>
+
+                            <p> 用日志记录您的贸易历程，分享您的贸易经验！ </p>
+                        </div>
+
+                        <div class="panel sidebar-panel">
+                            <div class="panel-heading uppercase">
+                                <small><strong>如何快速获得积分?</strong></small>
+                            </div>
+                            <div class="panel-content">
+                                <div class="panel-body text-left">
+                                    <ul class="list-check">
+                                        <li> 使用一个简短的标题和描述</li>
+                                        <li> 确保您文章选择正确的分类</li>
+                                        <li> 添加美观的与内容一致的图片</li>
+                                        <li> 设置合理的积分价格</li>
+                                        <li> 在发布之前认真检查发表内容</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!--/.reg-sidebar-->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.main-container -->
+
+    <div class="footer" id="footer">
+        <div class="container">
+            <ul class=" pull-left navbar-link footer-nav">
+                <li><a href="index.html"> Home </a> <a href="about-us.html"> About us </a> <a href="terms-conditions.html"> Terms and
+                    Conditions </a> <a href="#"> Privacy Policy </a> <a href="contact.html"> Contact us </a> <a
+                        href="faq.html"> FAQ </a>
+            </ul>
+            <ul class=" pull-right navbar-link footer-nav">
+                <li> &copy; 2015 BootClassified</li>
+            </ul>
+        </div>
+
+    </div>
+    <!--/.footer-->
+</div>
+<!-- /.wrapper -->
+
+<!-- Le javascript
+================================================== -->
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- include jquery file upload plugin  -->
+<script src="assets/js/fileinput.min.js" type="text/javascript"></script>
+<script>
+    // initialize with defaults
+    $("#input-upload-img1").fileinput();
+    $("#input-upload-img2").fileinput();
+    $("#input-upload-img3").fileinput();
+    $("#input-upload-img4").fileinput();
+    $("#input-upload-img5").fileinput();
+
+
+</script>
+
+<!-- include carousel slider plugin  -->
+<script src="assets/js/owl.carousel.min.js"></script>
+
+
+<!-- include equal height plugin  -->
+<script src="assets/js/jquery.matchHeight-min.js"></script>
+
+<!-- include jquery list shorting plugin plugin  -->
+<script src="assets/js/hideMaxListItem.js"></script>
+
+<!-- include jquery.fs plugin for custom scroller and selecter  -->
+<script src="assets/plugins/jquery.fs.scroller/jquery.fs.scroller.js"></script>
+<script src="assets/plugins/jquery.fs.selecter/jquery.fs.selecter.js"></script>
+<!-- include custom script for site  -->
+<script src="assets/js/script.js"></script>
+</body>
+</html>

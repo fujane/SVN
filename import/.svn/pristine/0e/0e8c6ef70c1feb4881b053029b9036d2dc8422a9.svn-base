@@ -1,0 +1,11 @@
+<?php
+$presenter = new Illuminate\Pagination\PaginationServiceProvider($paginator);
+?>
+共 <?php echo e($paginator->getCurrentPage()); ?>  条记录
+<div class="am-fr">
+    <ul class="am-pagination">
+        <?php echo $presenter->render(); ?>
+    </ul>
+</div>
+
+

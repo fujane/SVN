@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <title>BOOTCLASIFIED - Responsive Classified Theme</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- styles needed for carousel slider -->
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- include pace script for automatic web page progress bar  -->
+
+    <script>
+        paceOptions = {
+            elements: true
+        };
+    </script>
+    <script src="assets/js/pace.min.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div class="header">
+        <nav class="navbar   navbar-site navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                        <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
+                            class="icon-bar"></span> <span class="icon-bar"></span></button>
+                    <a href="index.html" class="navbar-brand logo logo-title">
+                        <!-- Original Logo will be placed here  -->
+                        <span class="logo-icon"><i class="icon icon-search-1 ln-shadow-logo shape-0"></i> </span>
+                        Trade to <span> China </span> </a></div>
+                <div class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">退出 <i class="glyphicon glyphicon-off"></i> </a></li>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span>Jhon Doe</span> <i class="icon-user fa"></i> <i
+                                class=" icon-down-open-big fa"></i></a>
+                             <ul class="dropdown-menu user-menu">
+                                <li><a href="indexlogin.html"><i class="icon-th-thumb"></i> 网站首页 </a></li>
+                                <li><a href="account-myads.html"><i class="icon-th-thumb"></i> 我的大数据 </a></li>
+                                <li><a href="account-blog.html"><i class="icon-heart"></i> 博客中心 </a>
+                                </li>
+                                <li class="active"><a href="profile.html"><i class="icon-home"></i> 个人主页
+                                </a></li>
+                                <li><a href="account-pending-approval-ads.html"><i class="icon-hourglass"></i> 留言互动 </a></li>
+                                <li><a href="myaccount.html"><i class=" icon-money "></i>个人资料 </a></li>
+                                <li><a href="myaccount1.html"><i class=" icon-money "></i>会员服务 </a></li>
+                            </ul>
+                        </li>
+                        <li class="postadd"><a class="btn btn-block   btn-border btn-post btn-danger"
+                                               href="post-ads.html">发布文章</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+    <!-- /.header -->
+
+    <div class="main-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 page-sidebar">
+                    <aside>
+                        <div class="inner-box">
+                            <div class="user-panel-sidebar">
+                                <div class="collapse-box">
+                                    <h5 class="collapse-title no-border"> 分类主页 <a class="pull-right"
+                                                                                           data-toggle="collapse"
+                                                                                           href="#MyClassified"><i
+                                            class="fa fa-angle-down"></i></a></h5>
+
+                                    <div id="MyClassified" class="panel-collapse collapse in">
+                                        <ul class="acc-list">
+                                            <li><a href="datahome.html"><i class="icon-home"></i> 我的数据中心</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- /.collapse-box  -->
+                                <div class="collapse-box">
+                                    <h5 class="collapse-title"> 数据管理 <a class="pull-right" data-toggle="collapse"
+                                                                          href="#MyAds"><i class="fa fa-angle-down"></i></a>
+                                    </h5>
+
+                                    <div id="MyAds" class="panel-collapse collapse in">
+                                        <ul class="acc-list">
+                                            <li class="active"><a href="data-recommend.html"><i class="icon-docs"></i> 潜在客户 <span class="badge">42</span> </a></li>
+                                            <li><a href="data-favourite.html"><i class="icon-heart"></i>
+                                                关注企业 <span class="badge">42</span> </a></li>
+                                            <li><a href="account-history.html"><i class="icon-star-circled"></i>
+                                                历史查看 <span class="badge">42</span> </a></li>
+                                            <li><a href="data-download.html"><i class="icon-folder-close"></i>
+                                                提单下载 <span class="badge">42</span></a></li>
+                                            <li><a href="data-getmore.html"><i
+                                                    class="icon-hourglass"></i> 信息采集 <span
+                                                    class="badge">42</span></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- /.collapse-box  -->
+                                <div class="collapse-box">
+                                    <h5 class="collapse-title"> 账户管理 <a class="pull-right"
+                                                                                     data-toggle="collapse"
+                                                                                     href="#TerminateAccount"><i
+                                            class="fa fa-angle-down"></i></a></h5>
+
+                                    <div id="TerminateAccount" class="panel-collapse collapse in">
+                                        <ul class="acc-list">
+                                            <li><a href="myaccount.html"><i class="icon-cancel-circled "></i> 个人资料</a></li>
+                                            <li><a href="account-finance.html"><i class="icon-cancel-circled "></i> 财务记录</a></li>
+                                            <li><a href="index.html"><i class="icon-cancel-circled "></i> 退出登录</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- /.collapse-box  -->
+                            </div>
+                        </div>
+                        <!-- /.inner-box  -->
+
+                    </aside>
+                </div>
+                <!--/.page-sidebar-->
+
+                <div class="col-sm-9 page-content">
+                     <div class="inner-box">
+                        <div class="row">
+                            <div class="col-md-5 col-xs-4 col-xxs-12">
+                                <h3 class="no-padding text-center-480 useradmin"><a href=""><img class="userImg"
+                                                                                                 src="images/user.jpg"
+                                                                                                 alt="user"> Jhon Doe
+                                                                                                 非会员
+                                </a></h3>
+                            </div>
+                            <div class="col-md-7 col-xs-8 col-xxs-12">
+                                <div class="header-data text-center-xs">
+
+                                    <!-- Traffic data -->
+                                    <div class="hdata">
+                                        <div class="mcol-left">
+                                            <!-- Icon with red background -->
+                                            <i class="fa fa-eye ln-shadow"></i></div>
+                                        <div class="mcol-right">
+                                            <!-- Number of visitors -->
+                                            <p><a href="#">7000</a> <em>查看</em></p>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+
+                                    <!-- revenue data -->
+                                    <div class="hdata">
+                                        <div class="mcol-left">
+                                            <!-- Icon with green background -->
+                                            <i class="icon-th-thumb ln-shadow"></i></div>
+                                        <div class="mcol-right">
+                                            <!-- Number of visitors -->
+                                            <p><a href="#">1200</a><em>推荐</em></p>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+
+                                    <!-- revenue data -->
+                                    <div class="hdata">
+                                        <div class="mcol-left">
+                                            <!-- Icon with blue background -->
+                                            <i class="fa fa-user ln-shadow"></i></div>
+                                        <div class="mcol-right">
+                                            <!-- Number of visitors -->
+                                            <p><a href="#">18</a> <em>提单 </em></p>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner-box">
+                      <h2 class="title-2"><i class="icon-docs"></i> 升级服务 </h2>
+                        <!--/.row-box End-->
+						 <div class="col-lg-12 text-center">
+                    <div>
+                        <h2> VIP级别</h2>
+                    </div>
+               
+                  <div id="icons" class="container">
+                                
+        <div class="col-sm-4">
+                                    <div title="Code: 0xe990" class="the-icons span3"><i class="icon-person"></i> <span
+                                            class="i-name">10000条数据导出</span><span class="i-code">0xe990</span></div>
+                                    <div title="Code: 0xe991" class="the-icons span3"><i class="icon-group-circled"></i>
+                                        <span class="i-name">icon-group-circled</span><span class="i-code">0xe991</span>
+                                    </div>
+                                    <div title="Code: 0xe992" class="the-icons span3"><i class="icon-female"></i> <span
+                                            class="i-name">icon-female</span><span class="i-code">0xe992</span></div>
+                                    <div title="Code: 0xe993" class="the-icons span3"><i class="icon-smiley"></i> <span
+                                            class="i-name">icon-smiley</span><span class="i-code">0xe993</span></div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div title="Code: 0xe994" class="the-icons span3"><i
+                                            class="icon-smiley-circled"></i> <span
+                                            class="i-name">icon-smiley-circled</span><span class="i-code">0xe994</span>
+                                    </div>
+                                    <div title="Code: 0xe995" class="the-icons span3"><i class="icon-bug"></i> <span
+                                            class="i-name">icon-bug</span><span class="i-code">0xe995</span></div>
+                                    <div title="Code: 0xe996" class="the-icons span3"><i class="icon-certificate-1"></i>
+                                        <span class="i-name">icon-certificate-1</span><span class="i-code">0xe996</span>
+                                    </div>
+                                    <div title="Code: 0xe997" class="the-icons span3"><i
+                                            class="icon-graduation-cap-2"></i> <span class="i-name">icon-graduation-cap-2</span><span
+                                            class="i-code">0xe997</span></div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div title="Code: 0xe998" class="the-icons span3"><i class="icon-wheelchair"></i>
+                                        <span class="i-name">icon-wheelchair</span><span class="i-code">0xe998</span>
+                                    </div>
+                                    <div title="Code: 0xe999" class="the-icons span3"><i class="icon-extinguisher"></i>
+                                        <span class="i-name">icon-extinguisher</span><span class="i-code">0xe999</span>
+                                    </div>
+                                    <div title="Code: 0xe99a" class="the-icons span3"><i class="icon-shield"></i> <span
+                                            class="i-name"></span><span class="i-code">0xe99a</span></div>
+                                    <div title="Code: 0xe99b" class="the-icons span3"><i class="icon-hammer"></i></div>
+                                    
+                    </div>
+                                <div class="col-sm-4">
+                                    <div title="Code: 0xe99c" class="the-icons span3"><i class="icon-cab"></i> <span
+                                            class="i-name">icon-cab</span><span class="i-code">0xe99c</span></div>
+                                </div>
+                            </div> 
+                                                                <a href="#" class="btn btn-primary">普通会员</a>
+                                                                <a href="#" class="btn btn-primary">黄金</a>
+                                                                <a href="#" class="btn btn-primary">钻石</a>
+
+                    </div>
+                </div>
+                    <div class="alert alert-info">
+                                <button type="button" class="close" data-dismiss="alert"
+                                        aria-hidden="true">&times;</button>
+                                <strong>普通会员!</strong> 如果您有好的意见和建议可以联系我们，需要更多功能请购买我们的vip服务，感谢您的支持！
+                            </div>
+                                   
+                                    
+                                
+                  
+                <!--/.page-content-->
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </div>
+    <!-- /.main-container -->
+
+    <div class="footer" id="footer">
+        <div class="container">
+            <ul class=" pull-left navbar-link footer-nav">
+                <li><a href="index.html"> Home </a> <a href="about-us.html"> About us </a> <a href="terms-conditions.html"> Terms and
+                    Conditions </a> <a href="#"> Privacy Policy </a> <a href="contact.html"> Contact us </a> <a
+                        href="faq.html"> FAQ </a>
+            </ul>
+            <ul class=" pull-right navbar-link footer-nav">
+                <li> &copy; 2015 BootClassified</li>
+            </ul>
+        </div>
+
+    </div>
+    <!--/.footer-->
+</div>
+<!-- /.wrapper -->
+
+<!-- Le javascript
+================================================== -->
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- include checkRadio plugin //Custom check & Radio  -->
+<script type="text/javascript" src="assets/js/icheck.min.js"></script>
+
+
+<!-- include carousel slider plugin  -->
+<script src="assets/js/owl.carousel.min.js"></script>
+
+<!-- include equal height plugin  -->
+<script src="assets/js/jquery.matchHeight-min.js"></script>
+
+<!-- include jquery list shorting plugin plugin  -->
+<script src="assets/js/hideMaxListItem.js"></script>
+
+<!-- include footable   -->
+
+<script src="assets/js/footable.js?v=2-0-1" type="text/javascript"></script>
+<script src="assets/js/footable.filter.js?v=2-0-1" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#addManageTable').footable().bind('footable_filtering', function (e) {
+            var selected = $('.filter-status').find(':selected').text();
+            if (selected && selected.length > 0) {
+                e.filter += (e.filter && e.filter.length > 0) ? ' ' + selected : selected;
+                e.clear = !e.filter;
+            }
+        });
+
+        $('.clear-filter').click(function (e) {
+            e.preventDefault();
+            $('.filter-status').val('');
+            $('table.demo').trigger('footable_clear_filter');
+        });
+
+    });
+</script>
+<!-- include custom script for ads table [select all checkbox]  -->
+<script>
+
+    function checkAll(bx) {
+        var chkinput = document.getElementsByTagName('input');
+        for (var i = 0; i < chkinput.length; i++) {
+            if (chkinput[i].type == 'checkbox') {
+                chkinput[i].checked = bx.checked;
+            }
+        }
+    }
+
+</script>
+
+<!-- include jquery.fs plugin for custom scroller and selecter  -->
+<script src="assets/plugins/jquery.fs.scroller/jquery.fs.scroller.js"></script>
+<script src="assets/plugins/jquery.fs.selecter/jquery.fs.selecter.js"></script>
+<!-- include custom script for site  -->
+<script src="assets/js/script.js"></script>
+</body>
+</html>

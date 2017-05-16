@@ -1,0 +1,1 @@
+<input type="text" class="form-control" placeholder="<?php echo e($placeholder); ?>" name="<?php echo e($name); ?>" value="<?php echo e(request($name, $value)); ?>">
